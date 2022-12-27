@@ -38,7 +38,7 @@ jobs:
 
       - name: Cache node_modules
         if: env.GIT_DIFF
-        uses: actions/cache@v2.1.3
+        uses: actions/cache@v3.2.2
         id: cached-node_modules
         with:
           path: |
